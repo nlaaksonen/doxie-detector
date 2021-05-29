@@ -1,6 +1,6 @@
 # Dachshund Detector
 
-> You can try out the final model at: [https://doxie-detector.heroku.com](https://doxie-detector.heroku.com)
+> You can try out the final model at: [https://doxie-detector.herokuapp.com](https://doxie-detector.herokuapp.com)
 
 Our task is to build a binary classifier to decide from user-submitted dog photos
 whether the breed is dachshund or not. We will also deploy the final model to
@@ -9,10 +9,12 @@ Heroku with the help of a Flask server. As our dataset we use roughly
 The images are scraped from a variety of
 sources such as Reddit and DogAPI on [dog.ceo](http://dog.ceo).
 
+It is recommended to view the HTML versions of the notebooks.
+
 ## Linear Models
 
-> See [linear_models.ipynb](linear_models.ipynb) for details. ([nbviewer]() |
-> [HTML]())
+> See [linear_models.ipynb](linear_models.ipynb) for details.
+> ([HTML](https://nlaaksonen.github.io/doxie-detector/linear_models.html))
 
 In order to measure our success, we set up a baseline with some simple linear
 models (without any hyperparameter tuning). To speed up learning we first
@@ -21,10 +23,9 @@ This ends up reducing the dimension of the input vector from
 150 528 to 50. We achieve about 60% and 61% classification accuracies on
 the validation set with logistic regression and SVMs, respectively.
 
-## Convolutional Neural Nets and Transfer Learning
+## Convolutional Neural Nets and Transfer Learning in TensorFlow
 
-> See [cnn_models.ipynb](cnn_models.ipynb) for details. ([nbviewer]() |
-> [HTML]())
+> See [cnn_models.ipynb](cnn_models.ipynb) for details. ([HTML](https://nlaaksonen.github.io/doxie-detector/cnn_models.html))
 
 Our main focus are various CNN models. In this notebook we discuss the limitations
 of the dataset that we've collected. We then create a classical sequential CNN
