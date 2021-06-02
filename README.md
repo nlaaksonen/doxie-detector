@@ -38,12 +38,12 @@ help us visualise which parts of the input contribute the most to the output by
 computing the derivative of the output w.r.t. the input.
 Here is one example of such a map from our model:
 
-![Saliency map](img/saliency.png)
+![Saliency map](https://raw.githubusercontent.com/nlaaksonen/doxie-detector/main/img/saliency.png)
 
 Moreover, we show how class saliency maps can be used to construct a very simple
 object localisation algorithm:
 
-![Object localisation](img/localisation.png)
+![Object localisation](https://raw.githubusercontent.com/nlaaksonen/doxie-detector/main/img/localisation.png)
 
 While saliency maps are *input dependent*, class
 model visualisations are *input independent*. That is we let the network create
@@ -51,7 +51,7 @@ model visualisations are *input independent*. That is we let the network create
 Here are examples of such a visualisation from our model for the dachshund
 class:
 
-![Dachund class model visualisation](img/class_model_dachshund.png)
+![Dachund class model visualisation](https://raw.githubusercontent.com/nlaaksonen/doxie-detector/main/img/class_model_dachshund.png)
 
 As you can see, it might be possible to make out some shapes that one might
 typically expect from dachshund, but our results are less prominent than in the
