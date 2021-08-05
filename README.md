@@ -56,5 +56,7 @@ class:
 As you can see, it might be possible to make out some shapes that one might
 typically expect from dachshund, but our results are less prominent than in the
 original paper. We discuss possible reasons as to why this might happen in
-section 5.3 of the notebook.
+section 5.3 and 5.4 of the notebook. Finally, we'll also briefly show how to
+use SHAP and Lime methods to obtain explanations for the predictions of a
+TensorFlow model.
 
