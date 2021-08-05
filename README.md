@@ -8,8 +8,14 @@ Heroku with the help of a Flask server. As our dataset we use roughly
 1000 pictures of dachshunds and another 1000 of dogs of various other breeds.
 The images are scraped from a variety of
 sources such as Reddit and DogAPI on [dog.ceo](http://dog.ceo).
+Finally, we also show an implementation of a DCGAN architecture at
+[doxiecgan.py](doxiecgan.py) which is designed to be used with our dachshund
+dataset. You can try out the final product at
+[https://nikolaaksonen.fi/doxiecgan](https://nikolaaksonen.fi/doxiecgan/),
+where the 50 MB model is run directly in your browser with TensorFlow.js.
+The training was done on Google Colab and took roughly 4 hours.
 
-It is recommended to view the HTML versions of the notebooks.
+It is recommended to view the HTML versions of the notebooks below.
 
 ## Linear Models
 
