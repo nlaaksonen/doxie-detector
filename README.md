@@ -1,6 +1,6 @@
 # Dachshund Detector
 
-> You can try out the final model at: [https://doxie-detector.herokuapp.com](https://doxie-detector.herokuapp.com)
+> You can try out the classifier at: [https://doxie-detector.herokuapp.com](https://doxie-detector.herokuapp.com)
 
 Our task is to build a binary classifier to decide from user-submitted dog photos
 whether the breed is dachshund or not. We will also deploy the final model to
@@ -8,11 +8,15 @@ Heroku with the help of a Flask server. As our dataset we use roughly
 1000 pictures of dachshunds and another 1000 of dogs of various other breeds.
 The images are scraped from a variety of
 sources such as Reddit and DogAPI on [dog.ceo](http://dog.ceo).
-Finally, we also show an implementation of a DCGAN architecture at
-[doxiecgan.py](doxiecgan.py) which is designed to be used with our dachshund
-dataset. You can try out the final product at
-[https://nikolaaksonen.fi/doxiecgan](https://nikolaaksonen.fi/doxiecgan/),
-where the 50 MB model is run directly in your browser with TensorFlow.js.
+
+Finally, we also show an implementation of a
+[DCGAN](https://arxiv.org/abs/1511.06434) architecture at
+[doxiecgan.py](doxiecgan.py), which is designed to be used with our dachshund
+dataset.
+
+> You can try out the GAN at [https://nikolaaksonen.fi/doxiecgan](https://nikolaaksonen.fi/doxiecgan/)
+
+The final 50 MB model is run directly in your browser with TensorFlow.js.
 The training was done on Google Colab and took roughly 4 hours.
 
 It is recommended to view the HTML versions of the notebooks below.
