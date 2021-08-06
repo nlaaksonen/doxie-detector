@@ -10,7 +10,7 @@ The images are scraped from a variety of
 sources such as Reddit and DogAPI on [dog.ceo](http://dog.ceo).
 
 Finally, we also show an implementation of a
-[DCGAN](https://arxiv.org/abs/1511.06434) architecture at
+[DCGAN](https://arxiv.org/abs/1511.06434) architecture in
 [doxiecgan.py](doxiecgan.py), which is designed to be used with our dachshund
 dataset.
 
