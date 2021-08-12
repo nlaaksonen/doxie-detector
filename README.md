@@ -22,7 +22,8 @@ The training was done on Google Colab and took roughly 4 hours. Below are some
 ![DoxieCGAN
 examples](https://raw.githubusercontent.com/nlaaksonen/doxie-detector/main/img/gan.png)
 
-It is recommended to view the HTML versions of the notebooks below.
+> It is recommended to view the HTML versions of the notebooks below since some
+> cells might not display properly with GitHub's renderer.
 
 ## Linear Models
 
